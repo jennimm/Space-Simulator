@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jun  7 15:32:45 2020
-@author: Danny and Jenni (but he smells)
+@author: Danny and Jenni 
 """
 
 import pygame
@@ -38,7 +38,6 @@ saturn_radius = 58232000
 uranus_radius = 25362000
 neptune_radius = 24622000
 
-#would it be better to put this in a file and read the data from a file????? ^^^^^
 
 planet_data = [mercury_to_sun, venus_to_sun, earth_to_sun, mars_to_sun,
                jupiter_to_sun, saturn_to_sun, uranus_to_sun, neptune_to_sun,
@@ -54,7 +53,7 @@ BLUE = (0, 128, 255) #FOR EARTH
 DUST = (245, 202, 139) #FOR MARS
 JUPITER_COL = (252, 91, 11) #NICE NAME  
 YELLOW = (242, 224, 63) #FOR SATURN
-TURQUOISE = (125, 235, 224) #FOR UR ANUS -------- i bet you didnt notice this
+TURQUOISE = (125, 235, 224) #FOR URANUS
 DARKBLUE = (19, 27, 246) #FOR NEPTUNE
 BLACK = (0, 0, 0)
 
